@@ -7,7 +7,7 @@ class UserController{
         $name=$user->getName();
         view('users.hello',[
             'name'=>$name
-        ])
+        ]);
     }
     public function world(){
         echo 'world';
